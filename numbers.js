@@ -10,6 +10,10 @@ console.log(typeof(num3));
 
 let hundreds = 10000000000
 console.log(hundreds.toLocaleString("en-IN"));
+console.log(hundreds.toLocaleString('hi-IN',{
+    style: 'currency',
+    currency: 'INR'
+}));
 
 
 console.log("Math object");
