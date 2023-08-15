@@ -2,6 +2,7 @@
 
 let arr = [3, 5, 6, 7, 5]
 let heros = ["ironman", "Captain America"]
+let dc = ["batman", "flash"]
 let arr2 = new Array(3, 5, 6, 6, 3, 3)
 
 console.log(arr);
@@ -22,6 +23,11 @@ console.log(arr2);
 
 console.log(arr.includes(3));
 console.log(arr.shift());
+
+//spread operator is works as concat() function
+let allHeros=[...heros, ...dc]
+console.log(allHeros);
+
 
 // console.log(myArr[1]);
 
