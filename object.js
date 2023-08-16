@@ -52,3 +52,13 @@ console.log(Object.values(tinderuser));
 console.log(Object.entries(tinderuser));
 
 console.log(Object.hasOwnProperty("name"));
+
+//object destructuring
+let course = {
+    coursname:"javascript basics",
+    price:"bohat jada",
+}
+
+let {coursname : user} = course
+console.log(user);
+
