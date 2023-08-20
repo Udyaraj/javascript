@@ -47,7 +47,7 @@ for (i =1; i<=20; i++){
 const  arr =[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 for (i = 1; i<=arr.length;i++){
-    if(arr[i]%2 == 0){
+    if(arr[i] == arr[i+1]){
         let a = arr[i]
         console.log(a);
     }
