@@ -10,8 +10,7 @@ for(i = 1; i<=10;i++){
     console.log(`Outer loop:${i}`);
     for(j=1;j<=10;j++){
         //console.log(`Inner Loop:${j} and inner loop ${i}`);
-        console.log(i+"*"+j+
-        "="+i*j);
+        console.log(i+"*"+j+"="+i*j);
 
     }
 }

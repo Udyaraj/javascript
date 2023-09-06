@@ -6,7 +6,7 @@ var age = 21
 // console.log(nama)
 // console.log(age)
 //prefer not to user var keyword to assign a variable
-//user let because avoid bloack scope and functional scope conflict
+//user let because avoid block scope and functional scope conflict
 // we cannot reassign a variable of const  S
 console.table([accountId,nama,age])
 
