@@ -5,3 +5,7 @@ function greet(name){
 }
 
 greet("udayraj");
+
+module.exports = greet;
+// module is incapsulated
+//
