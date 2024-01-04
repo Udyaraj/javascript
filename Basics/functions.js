@@ -51,7 +51,7 @@ console.log(calculatecart(10,42,78,85))
  })
 
 
- let newArray = [12, 52, 52, 52]
+ let newArray = [12, 52, 54, 55]
 
  function returnsecondvalue(getvalue){
     return getvalue[1]
