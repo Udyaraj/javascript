@@ -1,5 +1,8 @@
-//javascript = synchronous, single threaded
-//execution context = execute on line of code at a one time
-//blocking code means block the flow of program ex read the file sync
-//non-blocking read the file async
-//file access is avaliable only in javascript
+async function abcd(){
+    let raw = await fetch(`https://randomuser.me/api/`)
+    let ans = await raw.json();
+    console.log(ans);
+}
+abcd();
+//async await is remove .then and .catch and use await
+//async await and .then use with mongodb

@@ -6,16 +6,17 @@
     <title>Document</title>
   </head>
   <body>
-    
     <h1>async</h1>
     <button id="start">Start</button>
     <button id="stop">Stop</button>
-
   </body>
   <script>
-    const sayDate = function(){
-        console.log("udayraj",Date.now());
-    }
-    setInterval(sayDate,1000)
+    const sayDate = document
+      .querySelector("start")
+      .addEventListener("click", function () {
+        console.log("udayraj", Date.now());
+      });
+      
+    setInterval(sayDate, 1000);
   </script>
 </html>
